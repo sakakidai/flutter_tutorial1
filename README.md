@@ -1,16 +1,29 @@
 # flutter_tutorial1
 
-A new Flutter project.
+Flutterのチュートリアル
+
+以下の内容を実施
+
+https://zenn.dev/kazutxt/books/flutter_practice_introduction
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### 参考
 
-A few resources to get you started if this is your first Flutter project:
+https://zenn.dev/kazutxt/books/flutter_practice_introduction/viewer/tutorial_environment
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+https://docs.flutter.dev/get-started/install
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 使うエディター
+
+vscode
+
+android studio
+
+https://github.com/sakakidai/flutter_tutorial1/wiki/Android-Studio%E3%81%AEFlutter%E3%81%AE%E6%A9%9F%E8%83%BD
+
+## tutorial1
+
+### 内容
+
+https://zenn.dev/kazutxt/books/flutter_practice_introduction/viewer/beginner_widget
