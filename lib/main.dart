@@ -10,11 +10,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: "Flutter Demo",
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: const MyHomePage(title: "Flutter Demo Home Page"),
     );
   }
 }
@@ -28,51 +28,43 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
+  int _counter = 0;
+  String _type = "偶数";
+
+  void _incrementCounter() {
+    setState(() {
+      _counter++;
+      if (_counter % 2 == 0) {
+        _type = "偶数";
+      } else {
+        _type = "奇数";
+      }
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Row(
-          children: const [
-            Icon(Icons.create),
-            Text("初めてのタイトル"),
+        title: Text(widget.title),
+      ),
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            const Text("You have pushed the button this many times:"),
+            Text(
+              "$_counter",
+              style: Theme.of(context).textTheme.headline4,
+            ),
+            Text(_type, style: const TextStyle(fontSize: 20, color: Colors.red)),
           ],
         ),
       ),
-      drawer: const Drawer(child: Center(child: Text("Drawer"))),
-      body: Column(
-        children: [
-          const Text("初めてのテキスト"),
-          const Text("２番目のテキスト"),
-          TextButton(
-            onPressed: () => {print("ボタンがおされたよ")},
-            child: const Text("更新"),
-          ),
-          Row(
-            mainAxisAlignment: MainAxisAlignment.spaceAround,
-            children: const [
-              Icon(
-                Icons.favorite,
-                color: Colors.pink,
-                size: 24.0,
-              ),
-              Icon(
-                Icons.audiotrack,
-                color: Colors.green,
-                size: 30.0,
-              ),
-              Icon(
-                Icons.beach_access,
-                color: Colors.blue,
-                size: 36.0,
-              ),
-            ],
-          )
-        ],
-      ),
       floatingActionButton: FloatingActionButton(
-        onPressed: () => {print("押したね？")},
-        child: const Icon(Icons.timer),
+        onPressed: () => {_incrementCounter()},
+        tooltip: "incrementCounter",
+        child: const Icon(Icons.add),
       ),
     );
   }

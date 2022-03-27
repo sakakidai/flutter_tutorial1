@@ -27,3 +27,10 @@ https://github.com/sakakidai/flutter_tutorial1/wiki/Android-Studio%E3%81%AEFlutt
 ### 内容
 
 https://zenn.dev/kazutxt/books/flutter_practice_introduction/viewer/beginner_widget
+
+## tutorial2
+
+### 内容
+
+https://zenn.dev/kazutxt/books/flutter_practice_introduction/viewer/beginner_setstate
+
