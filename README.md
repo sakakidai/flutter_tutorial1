@@ -34,3 +34,10 @@ https://zenn.dev/kazutxt/books/flutter_practice_introduction/viewer/beginner_wid
 
 https://zenn.dev/kazutxt/books/flutter_practice_introduction/viewer/beginner_setstate
 
+## tutorial3
+
+### パッケージ(pubspec.yml)
+
+https://zenn.dev/kazutxt/books/flutter_practice_introduction/viewer/beginner_package
+
+
