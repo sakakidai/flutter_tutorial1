@@ -52,6 +52,28 @@ https://zenn.dev/kazutxt/books/flutter_practice_introduction/viewer/beginner_tes
 
 https://zenn.dev/kazutxt/books/flutter_practice_introduction/viewer/beginner_page
 
+### MVVM
+
+https://qiita.com/naoi/items/05c2b1bba9b0fa4b0700
+
+### BLoCパターン
+
+https://qiita.com/kabochapo/items/8738223894fb74f952d3
+
+### IntelliJ IDEA（ショートカット）
+
+https://qiita.com/arai-wa/items/b0957d042c479577e8e3
+
+### Providerのbuilderとdispose
+
+https://qiita.com/arthur_foreign/items/fde6164b707840b1d4d5
+
+https://qiita.com/arthur_foreign/items/4b1bf1892439780c4690
+
+### provider
+
+https://qiita.com/kabochapo/items/a90d8438243c27e2f6d9
+
 
 
 
