@@ -40,4 +40,18 @@ https://zenn.dev/kazutxt/books/flutter_practice_introduction/viewer/beginner_set
 
 https://zenn.dev/kazutxt/books/flutter_practice_introduction/viewer/beginner_package
 
+## tutorial4
+
+### テスト
+
+https://zenn.dev/kazutxt/books/flutter_practice_introduction/viewer/beginner_test
+
+## tutorial5
+
+### ページ遷移（Navigator/PageView）
+
+https://zenn.dev/kazutxt/books/flutter_practice_introduction/viewer/beginner_page
+
+
+
 
