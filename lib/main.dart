@@ -91,6 +91,7 @@ class _MyHomePageState extends State<MyHomePage> {
             const Text("You have pushed the button this many times:"),
             Text(
               "$_counter",
+              key: const Key('counter'),
               style: Theme.of(context).textTheme.headline4,
             ),
             Text(_type, style: const TextStyle(fontSize: 20, color: Colors.red)),
@@ -106,6 +107,7 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
       ),
       floatingActionButton: FloatingActionButton(
+        key: const Key('increment'),
         onPressed: () => {_incrementCounter()},
         tooltip: "incrementCounter",
         child: const Icon(Icons.add),

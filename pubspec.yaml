@@ -23,6 +23,9 @@ dev_dependencies:
     git:
       url: https://github.com/Davenchy/flutter_launcher_icons.git
       ref: fixMinSdkParseFlutter2.8
+  flutter_driver:
+    sdk: flutter
+  test: any
 
 flutter_icons:
   android: true
