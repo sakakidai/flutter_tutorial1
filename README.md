@@ -74,6 +74,14 @@ https://qiita.com/arthur_foreign/items/4b1bf1892439780c4690
 
 https://qiita.com/kabochapo/items/a90d8438243c27e2f6d9
 
+## tutorial6
+
+### アニメーション(animated/transition)
+
+https://zenn.dev/kazutxt/books/flutter_practice_introduction/viewer/beginner_animation
+
+
+
 
 
 

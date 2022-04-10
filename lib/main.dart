@@ -40,10 +40,10 @@ class _MyHomePageState extends State<MyHomePage> {
   int _selectedIndex = 0;
 
   // ボトムメニューの遷移先画面
-  var _pages = [
-    TestPage1(),
-    TestPage2(),
-    TestPage3(),
+  final _pages = [
+    const TestPage1(),
+    const TestPage2(),
+    const TestPage3(),
   ];
   @override
   void initState() {
